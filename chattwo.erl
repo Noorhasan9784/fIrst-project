@@ -12,6 +12,7 @@ ask_machine(Pid,Question) ->
     end.
     
     
+Cannot extract specs (check logs for details)
 reply_from_machine() ->
     receive
         {from, {"Who are U?"}} ->
